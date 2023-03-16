@@ -1,4 +1,11 @@
 @import "https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap";
+.titulo-estilizado {
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
 main {
   text-align: center;
 }
@@ -99,6 +106,14 @@ iframe {
 .imagenGaleria:hover {
   filter: grayscale(0%);
   transform: scale(1.03);
+}
+
+.texto-estilizado {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333;
+  text-align: center;
+  letter-spacing: 0.5px;
 }
 
 /*# sourceMappingURL=estilo.css.map */
